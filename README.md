@@ -20,4 +20,4 @@ This is a simple web application that allows users to select an HTTP status code
 
 ## Local Setup
 1. Clone the repository here [ https://github.com/BenyamWorku/pizza_api ).
-2. Open `index.html` in a browser or click here [statuscodepizza.netlify.app ).
+2. Open `index.html` in a browser or click here [https://statuscodepizza.netlify.app/ ).
