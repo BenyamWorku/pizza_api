@@ -1,0 +1,62 @@
+body {
+    background-color: grey;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.container {
+    width: 90%; /* Make the container responsive */
+    max-width: 960px; /* Container can't be wider than the largest image */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+  
+}
+
+#dataSelect {
+    width: 100%;
+    padding: 15px;
+    font-size: 2rem;
+    border-radius: 8px;
+    border: 2px solid #cc5500;
+    background-color: #fff5e1;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display:flex;
+}
+
+
+.result {
+    padding: 20px;
+    background-color: #cc5500; /* Burnt orange */
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    /* flex-direction: column; Stack content vertically */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 300px; /* Ensure a minimum height */
+}
+
+
+
+img {
+    width: 100%; /* Make image fully responsive */
+    max-width: 960px; /* Limit to the maximum API image width */
+    min-width: 480px; /* Limit to the minimum API image width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure image fits within the result box */
+    border-radius: 10px;
+}
+
+#favoritePizzaBtn:hover {
+    background-color: #8d310d;
+    width:150px;
+}

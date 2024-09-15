@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--This is metadata for our document-->
-        <title>Document Title</title>
-        <meta charset="UTF-8">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza API Fetch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="dataSelect">Choose a Pizza (HTTP Code):</label>
+        <select id="dataSelect">
+            <option value="">Select a code</option>
+            <option value="100">100 Continue</option>
+            <option value="101">101 Switching Protocols</option>
+            <option value="102">102 Processing</option>
+            <option value="103">103 Early Hints</option>
+            <option value="200">200 OK</option>
+            <option value="201">201 Created</option>
+            <option value="202">202 Accepted</option>
+            <option value="203">203 Non-Authoritative Information</option>
+            <option value="204">204 No Content</option>
+            <option value="205">205 Reset Content</option>
+            <option value="206">206 Partial Content</option>
+            <option value="207">207 Multi-Status</option>
+            <option value="208">208 Already Reported</option>
+            <option value="218">218 This is fine</option>
+            <option value="226">226 IM Used</option>
+        </select>
 
-    <body>
-        <h1> italian specialty- what better than pizza</h1>
-        <!-- <p> This is a paragraph with a <a href="https://google.com" target="_blank" >link.</a></p> -->
-        <div>
-            <p1> Please select the http response and enter to get a slice of pizza</p1>
-            <select>
-                <option>Test Option</option>
-            </select>
-            <input type="button" value="search">
+        <div id="apiResult" class="result">
+            <p>Pizza image will be displayed here...</p>
+            <button id="favoritePizzaBtn">Favorite This Pizza</button>
+            <img id="pizzaImage" src="media/freepizza.jpeg" alt="Pizza Image">
         </div>
-        <div>
-            <img src="freepizza.jpeg" alt="this is a picture." width="500" height="500">
 
-        </div>
-    </body>
+
+        <!-- Add favorite button below the image -->
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
