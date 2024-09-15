@@ -19,5 +19,5 @@ This is a simple web application that allows users to select an HTTP status code
 4. On **subsequent visits**, the saved favorite pizza will be pre-selected and displayed.
 
 ## Local Setup
-1. Clone the repository.
-2. Open `index.html` in a browser or click here statuscodepizza.netlify.app.
+1. Clone the repository here [ https://github.com/BenyamWorku/pizza_api ).
+2. Open `index.html` in a browser or click here [ statuscodepizza.netlify.app ).
